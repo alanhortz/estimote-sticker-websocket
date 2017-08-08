@@ -1,0 +1,24 @@
+{
+  "name": "senseom-pi",
+  "version": "0.0.1",
+  "description": "SenseOm is a web server that broadcast the data advertised by estimote stickers through socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "home",
+    "automation",
+    "resin.io",
+    "Estimote",
+    "stickers"
+  ],
+  "author": "Alan Hortz <alan@handson.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bleacon": "^0.5.1",
+    "express": "^4.14.1",
+    "socket.io": "^1.7.2"
+  }
+}

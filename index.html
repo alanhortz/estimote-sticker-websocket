@@ -1,0 +1,17 @@
+<html>
+	<body>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+		  	var socket = io.connect();
+			
+				socket.on('sticker', function(sticker) {
+					console.log(sticker);
+				});		
+			</script>		
+
+
+
+		
+	</body>
+</html>
+
